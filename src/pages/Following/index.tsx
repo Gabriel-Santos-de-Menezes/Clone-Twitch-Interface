@@ -5,6 +5,9 @@ import Header from "../../components/Header";
 import Heading from "../../components/Heading";
 import { Container, Wrapper, Main } from "./styles";
 import Title from "../../components/Title";
+import CategoryList from "../../components/CategoryList";
+import StreamList from "../../components/StreamList";
+import ChannelList from "../../components/ChannelList";
 
 const Following: React.FC = () => {
   interface Item {
@@ -26,7 +29,7 @@ const Following: React.FC = () => {
       },
       {
         key: "C1",
-        render: () => <View />,
+        render: () => <CategoryList />,
       },
       {
         key: "LIVE_CHANNELS",
@@ -35,7 +38,7 @@ const Following: React.FC = () => {
       },
       {
         key: "C2",
-        render: () => <View />,
+        render: () => <StreamList />,
       },
       {
         key: "CONTINUE_WATCHING",
@@ -44,7 +47,7 @@ const Following: React.FC = () => {
       },
       {
         key: "C3",
-        render: () => <View />,
+        render: () => <StreamList />,
       },
       {
         key: "OFFLINE_CHANNELS",
@@ -53,7 +56,7 @@ const Following: React.FC = () => {
       },
       {
         key: "C4",
-        render: () => <View />,
+        render: () => <ChannelList />,
       },
     ];
 
