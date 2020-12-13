@@ -1,15 +1,17 @@
 import React from 'react';
 import { Feather, MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons';
 
-import { Text } from 'react-native';
+import { Text, Image } from 'react-native';
 import colors from '../../styles/colors';
+import myPhoto from '../../images/myPhoto.jpg';
 
-import { Container, Avatar, OnlineStatus, RightSide, Button } from './styles';
+import { Container, Avatar, OnlineStatus, RightSide, Button, ImgProfile } from './styles';
 
 const Header: React.FC = () => {
   return (
     <Container>
       <Avatar>
+        <ImgProfile source={myPhoto} />
         <OnlineStatus />
       </Avatar>
 

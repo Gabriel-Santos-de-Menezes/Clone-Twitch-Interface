@@ -20,8 +20,7 @@ export const  LeftSide = styled.View`
     flex-direction: row;
     align-items: center;
 `;
-export const  Avatar = styled.View`
-    background: ${colors.tag};
+export const  Avatar = styled.Image`
     width: 48px;
     height: 48px;
     border-radius: 24px;

@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Text } from "react-native";
+import myPhoto from "../../images/myPhoto.jpg";
 
 import { 
   Container,
@@ -20,7 +21,7 @@ const ChannelList: React.FC = () => {
   const ChannelItem = () => (
     <ChannelContainer>
       <LeftSide>
-        <Avatar />
+        <Avatar source={myPhoto} />
         <Collumn>
           <UserName>gabriel_smz</UserName>
           <Info>36 new videos</Info>

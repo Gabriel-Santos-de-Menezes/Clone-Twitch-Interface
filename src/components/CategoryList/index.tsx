@@ -24,7 +24,7 @@ const CategoryList: React.FC = () => {
         <CategoryName numberOfLines={1}>{item.name}</CategoryName>
         <CategoryStatus>
           <RedCirlce />
-          <Info>51. 9k</Info>
+          <Info>101. 9k</Info>
         </CategoryStatus>
       </CategoryContainer>
     )

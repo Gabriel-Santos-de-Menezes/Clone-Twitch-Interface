@@ -2,6 +2,8 @@ import React from "react";
 
 import { Text } from "react-native";
 import streanThumbnail from "../../images/stream_thumbnail.jpg";
+import react from "../../images/react.jpg";
+import myPhoto from "../../images/myPhoto.jpg";
 import {
   Container,
   List,
@@ -22,12 +24,12 @@ import {
 const StreamList: React.FC = () => {
   const StreamItem = () => (
     <StramContainer>
-      <StramThumbnail source={streanThumbnail} />
+      <StramThumbnail source={react} />
 
       <StreamColum>
         <StramRow>
           <StreamHeader>
-            <StreamAvatar />
+            <StreamAvatar source={myPhoto} />
             <StreamUserName numberOfLines={1}>gabriel_smz</StreamUserName>
           </StreamHeader>
 
